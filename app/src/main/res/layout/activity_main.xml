@@ -3,7 +3,8 @@
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/soccergrass">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -32,6 +33,7 @@
                         android:layout_marginBottom="16dp"
                         android:layout_marginTop="16dp"
                         android:text="Team A"
+                        android:textColor="#ffffff"
                         android:textAllCaps="true"
                         android:textSize="20sp" />
 
@@ -41,6 +43,7 @@
                         android:layout_gravity="center"
                         android:layout_marginBottom="16dp"
                         android:text="Points"
+                        android:textColor="#E0E0E0"
                         android:textSize="16sp" />
 
                     <TextView
@@ -50,13 +53,15 @@
                         android:layout_gravity="center"
                         android:layout_marginBottom="16dp"
                         android:text="0"
+                        android:textColor="#ffffff"
                         android:textSize="30sp" />
 
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:layout_marginBottom="16dp"
-                        android:background="@android:color/darker_gray" />
+                        android:layout_marginLeft="16dp"
+                        android:background="#ffffff" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -64,6 +69,7 @@
                         android:layout_gravity="center"
                         android:layout_marginBottom="16dp"
                         android:text="Fouls"
+                        android:textColor="#E0E0E0"
                         android:textSize="16sp" />
 
                     <TextView
@@ -73,13 +79,15 @@
                         android:layout_gravity="center"
                         android:layout_marginBottom="16dp"
                         android:text="0"
+                        android:textColor="#ffffff"
                         android:textSize="30sp" />
 
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:layout_marginBottom="16dp"
-                        android:background="@android:color/darker_gray" />
+                        android:layout_marginLeft="16dp"
+                        android:background="#ffffff" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -87,6 +95,7 @@
                         android:layout_gravity="center"
                         android:layout_marginBottom="16dp"
                         android:text="Yellow Cards"
+                        android:textColor="#E0E0E0"
                         android:textSize="16sp" />
 
                     <TextView
@@ -96,13 +105,15 @@
                         android:layout_gravity="center"
                         android:layout_marginBottom="16dp"
                         android:text="0"
+                        android:textColor="#ffffff"
                         android:textSize="30sp" />
 
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:layout_marginBottom="16dp"
-                        android:background="@android:color/darker_gray" />
+                        android:layout_marginLeft="16dp"
+                        android:background="#ffffff" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -110,6 +121,7 @@
                         android:layout_gravity="center"
                         android:layout_marginBottom="16dp"
                         android:text="Red Cards"
+                        android:textColor="#E0E0E0"
                         android:textSize="16sp" />
 
                     <TextView
@@ -119,6 +131,7 @@
                         android:layout_gravity="center"
                         android:layout_marginBottom="16dp"
                         android:text="0"
+                        android:textColor="#ffffff"
                         android:textSize="30sp" />
 
                 </LinearLayout>
@@ -127,7 +140,7 @@
                     android:layout_width="1dp"
                     android:layout_height="match_parent"
                     android:layout_marginTop="16dp"
-                    android:background="@android:color/darker_gray" />
+                    android:background="#ffffff" />
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -142,6 +155,7 @@
                         android:layout_marginBottom="16dp"
                         android:layout_marginTop="16dp"
                         android:text="Team B"
+                        android:textColor="#ffffff"
                         android:textAllCaps="true"
                         android:textSize="20sp" />
 
@@ -151,6 +165,7 @@
                         android:layout_gravity="center"
                         android:layout_marginBottom="16dp"
                         android:text="Points"
+                        android:textColor="#E0E0E0"
                         android:textSize="16sp" />
 
                     <TextView
@@ -160,13 +175,15 @@
                         android:layout_gravity="center"
                         android:layout_marginBottom="16dp"
                         android:text="0"
+                        android:textColor="#ffffff"
                         android:textSize="30sp" />
 
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:layout_marginBottom="16dp"
-                        android:background="@android:color/darker_gray" />
+                        android:layout_marginRight="16dp"
+                        android:background="#ffffff" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -174,6 +191,7 @@
                         android:layout_gravity="center"
                         android:layout_marginBottom="16dp"
                         android:text="Fouls"
+                        android:textColor="#E0E0E0"
                         android:textSize="16sp" />
 
                     <TextView
@@ -183,13 +201,15 @@
                         android:layout_gravity="center"
                         android:layout_marginBottom="16dp"
                         android:text="0"
+                        android:textColor="#ffffff"
                         android:textSize="30sp" />
 
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:layout_marginBottom="16dp"
-                        android:background="@android:color/darker_gray" />
+                        android:layout_marginRight="16dp"
+                        android:background="#ffffff" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -197,6 +217,7 @@
                         android:layout_gravity="center"
                         android:layout_marginBottom="16dp"
                         android:text="Yellow Cards"
+                        android:textColor="#E0E0E0"
                         android:textSize="16sp" />
 
                     <TextView
@@ -206,13 +227,15 @@
                         android:layout_gravity="center"
                         android:layout_marginBottom="16dp"
                         android:text="0"
+                        android:textColor="#ffffff"
                         android:textSize="30sp" />
 
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:layout_marginBottom="16dp"
-                        android:background="@android:color/darker_gray" />
+                        android:layout_marginRight="16dp"
+                        android:background="#ffffff" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -220,6 +243,7 @@
                         android:layout_gravity="center"
                         android:layout_marginBottom="16dp"
                         android:text="Red Cards"
+                        android:textColor="#E0E0E0"
                         android:textSize="16sp" />
 
                     <TextView
@@ -229,6 +253,7 @@
                         android:layout_gravity="center"
                         android:layout_marginBottom="16dp"
                         android:text="0"
+                        android:textColor="#ffffff"
                         android:textSize="30sp" />
                 </LinearLayout>
             </LinearLayout>
@@ -245,36 +270,44 @@
                     android:orientation="vertical">
 
                     <Button
-                        android:layout_width="wrap_content"
+                        android:layout_width="128dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginBottom="16dp"
                         android:layout_marginTop="16dp"
                         android:onClick="addTeamAPoints"
+                        android:background="#64DD17"
+                        android:textColor="#ffffff"
                         android:text="+ Point" />
 
                     <Button
-                        android:layout_width="wrap_content"
+                        android:layout_width="128dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginBottom="16dp"
                         android:onClick="addTeamAFouls"
+                        android:background="#64DD17"
+                        android:textColor="#ffffff"
                         android:text="+ Foul" />
 
                     <Button
-                        android:layout_width="wrap_content"
+                        android:layout_width="128dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginBottom="16dp"
                         android:onClick="addTeamAYellowCards"
+                        android:background="#64DD17"
+                        android:textColor="#ffffff"
                         android:text="+ Yellow Card" />
 
                     <Button
-                        android:layout_width="wrap_content"
+                        android:layout_width="128dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginBottom="64dp"
                         android:onClick="addTeamARedCards"
+                        android:background="#64DD17"
+                        android:textColor="#ffffff"
                         android:text="+ Red Card" />
                 </LinearLayout>
 
@@ -285,47 +318,57 @@
                     android:orientation="vertical">
 
                     <Button
-                        android:layout_width="wrap_content"
+                        android:layout_width="128dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginBottom="16dp"
                         android:layout_marginTop="16dp"
                         android:onClick="addTeamBPoints"
+                        android:background="#64DD17"
+                        android:textColor="#ffffff"
                         android:text="+ Point" />
 
                     <Button
-                        android:layout_width="wrap_content"
+                        android:layout_width="128dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginBottom="16dp"
                         android:onClick="addTeamBFouls"
+                        android:background="#64DD17"
+                        android:textColor="#ffffff"
                         android:text="+ Foul" />
 
                     <Button
-                        android:layout_width="wrap_content"
+                        android:layout_width="128dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginBottom="16dp"
                         android:onClick="addTeamBYellowCards"
+                        android:background="#64DD17"
+                        android:textColor="#ffffff"
                         android:text="+ Yellow Card" />
 
                     <Button
-                        android:layout_width="wrap_content"
+                        android:layout_width="128dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginBottom="64dp"
                         android:onClick="addTeamBRedCards"
+                        android:background="#64DD17"
+                        android:textColor="#ffffff"
                         android:text="+ Red Card" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="128dp"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:onClick="resetAll"
+            android:background="#64DD17"
+            android:textColor="#ffffff"
             android:text="Reset" />
     </RelativeLayout>
 </ScrollView>
